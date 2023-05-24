@@ -12,10 +12,6 @@ import java.awt.image.BufferedImage;
 @RestController
 @RequestMapping("/barcodes")
 public class BarcodesController {
-    @GetMapping(value = "/index")
-    public String index(){
-        return "index";
-    }
 
     //Barbecue library
 
